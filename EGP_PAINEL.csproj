@@ -52,6 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Cadastro_de_partido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cadastro_de_partido.Designer.cs">
+      <DependentUpon>Cadastro_de_partido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Cadastro_funcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cadastro_funcoes.Designer.cs">
+      <DependentUpon>Cadastro_funcoes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\form_cadastro_participante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +74,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro_de_partido.resx">
+      <DependentUpon>Cadastro_de_partido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro_funcoes.resx">
+      <DependentUpon>Cadastro_funcoes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\form_cadastro_participante.resx">
       <DependentUpon>form_cadastro_participante.cs</DependentUpon>

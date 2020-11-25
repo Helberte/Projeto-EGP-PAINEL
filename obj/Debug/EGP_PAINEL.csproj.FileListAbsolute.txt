@@ -9,3 +9,16 @@ C:\Helberte\EGP_PAINEL\obj\Debug\EGP_PAINEL.csproj.CoreCompileInputs.cache
 C:\Helberte\EGP_PAINEL\obj\Debug\EGP_PAINEL.exe
 C:\Helberte\EGP_PAINEL\obj\Debug\EGP_PAINEL.pdb
 C:\Helberte\EGP_PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_participante.resources
+C:\Helberte\Projeto-EGP-PAINEL\bin\Debug\EGP_PAINEL.exe.config
+C:\Helberte\Projeto-EGP-PAINEL\bin\Debug\EGP_PAINEL.exe
+C:\Helberte\Projeto-EGP-PAINEL\bin\Debug\EGP_PAINEL.pdb
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.csprojAssemblyReference.cache
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Form_principal.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_participante.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Properties.Resources.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.csproj.GenerateResource.cache
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.csproj.CoreCompileInputs.cache
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.exe
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.pdb
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.Cadastro_funcoes.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.Cadastro_de_partido.resources

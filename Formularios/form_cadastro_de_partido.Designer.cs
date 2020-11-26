@@ -40,8 +40,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox_nome_presidente = new System.Windows.Forms.ComboBox();
             this.groupBox_pergunta_presidente = new System.Windows.Forms.GroupBox();
-            this.rad_sim = new System.Windows.Forms.RadioButton();
             this.rad_nao = new System.Windows.Forms.RadioButton();
+            this.rad_sim = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_partido)).BeginInit();
             this.groupBox_pergunta_presidente.SuspendLayout();
             this.SuspendLayout();
@@ -166,6 +166,18 @@
             this.groupBox_pergunta_presidente.TabStop = false;
             this.groupBox_pergunta_presidente.Text = "O presidente é o cadastro atual?";
             // 
+            // rad_nao
+            // 
+            this.rad_nao.AutoSize = true;
+            this.rad_nao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_nao.Location = new System.Drawing.Point(256, 25);
+            this.rad_nao.Name = "rad_nao";
+            this.rad_nao.Size = new System.Drawing.Size(52, 20);
+            this.rad_nao.TabIndex = 1;
+            this.rad_nao.TabStop = true;
+            this.rad_nao.Text = "Não";
+            this.rad_nao.UseVisualStyleBackColor = true;
+            // 
             // rad_sim
             // 
             this.rad_sim.AutoSize = true;
@@ -178,18 +190,6 @@
             this.rad_sim.Text = "Sim";
             this.rad_sim.UseVisualStyleBackColor = true;
             this.rad_sim.CheckedChanged += new System.EventHandler(this.rad_sim_CheckedChanged);
-            // 
-            // rad_nao
-            // 
-            this.rad_nao.AutoSize = true;
-            this.rad_nao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rad_nao.Location = new System.Drawing.Point(256, 25);
-            this.rad_nao.Name = "rad_nao";
-            this.rad_nao.Size = new System.Drawing.Size(52, 20);
-            this.rad_nao.TabIndex = 1;
-            this.rad_nao.TabStop = true;
-            this.rad_nao.Text = "Não";
-            this.rad_nao.UseVisualStyleBackColor = true;
             // 
             // form_cadastro_de_partido
             // 
@@ -209,6 +209,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox_partido);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

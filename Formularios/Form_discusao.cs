@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EGP_PAINEL.Formularios
 {
-    public partial class form_cadastro_pauta : Form
+    public partial class Form_discusao : Form
     {
-        public form_cadastro_pauta()
+        public Form_discusao()
         {
             InitializeComponent();
         }

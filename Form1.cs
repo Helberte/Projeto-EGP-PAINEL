@@ -18,7 +18,8 @@ namespace EGP_PAINEL
         form_cadastro_de_partido frm_cad_partido;
         Form_principal frm_principal;
         form_cadastro_camara frm_cad_camaras;
-        form_cadastro_pauta frm_cad_pauta;
+        form_cadastro_projeto frm_cad_pauta;
+        Form_discusao frm_discusao;
 
         public Form_principal()
         {
@@ -59,11 +60,19 @@ namespace EGP_PAINEL
         private void Form_principal_Load(object sender, EventArgs e)
         {
             frm_principal = this;
-            panel1.Top = 200;
-            panel1.Left = (frm_principal.Width / 2) - (panel1.Width / 2);
+            panel_pauta_hoje.Top = 200;
+            panel_pauta_hoje.Left = (frm_principal.Width / 2) - (panel_pauta_hoje.Width / 2);
 
             lbl_nome_camara.Top = 75;
             lbl_nome_camara.Left = (frm_principal.Width / 2) - (lbl_nome_camara.Width / 2);
+
+
+            //Panel teste = new Panel();
+            //teste.Size = new Size(300, 600);
+            //teste.BackColor = Color.Red;
+            //teste.Location = new Point(100, this.panel1.Location.Y + this.panel1.Height);
+            //this.Controls.Add(teste);
+            //this.AutoScroll = true;
         }
 
         private void cadastroDeCâmarasToolStripMenuItem_Click(object sender, EventArgs e)
@@ -71,11 +80,22 @@ namespace EGP_PAINEL
             frm_cad_camaras = new form_cadastro_camara();
             frm_cad_camaras.ShowDialog();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+      
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            frm_cad_pauta = new form_cadastro_pauta();
+            frm_cad_pauta = new form_cadastro_projeto();
             frm_cad_pauta.ShowDialog();
+        }
+
+        private void Form_principal_Activated(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frm_discusao = new Form_discusao();
+            frm_discusao.ShowDialog();
         }
     }
 }

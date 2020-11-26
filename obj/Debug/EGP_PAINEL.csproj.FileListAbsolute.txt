@@ -23,4 +23,5 @@ C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.pdb
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_de_partido.resources
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_funcoes.resources
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_camara.resources
-C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_pauta.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_projeto.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.Form_discusao.resources

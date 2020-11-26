@@ -24,3 +24,18 @@ C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_de
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_funcoes.resources
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_camara.resources
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_pauta.resources
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\bin\Debug\EGP_PAINEL.exe.config
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\bin\Debug\EGP_PAINEL.exe
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\bin\Debug\EGP_PAINEL.pdb
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.csprojAssemblyReference.cache
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Form_principal.resources
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_camara.resources
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_de_partido.resources
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_funcoes.resources
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_participante.resources
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_pauta.resources
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Properties.Resources.resources
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.csproj.GenerateResource.cache
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.csproj.CoreCompileInputs.cache
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.exe
+C:\PROJETOS - C#\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.pdb

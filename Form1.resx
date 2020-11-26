@@ -125,4 +125,7 @@
 que institui o Código de Trânsito Brasileiro, para tornar facultativa a frequência em autoescolas, 
 na obtenção da Carteira Nacional de Habilitação, nos casos que especifica. "</value>
   </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>54</value>
+  </metadata>
 </root>

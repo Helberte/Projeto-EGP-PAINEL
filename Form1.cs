@@ -77,5 +77,10 @@ namespace EGP_PAINEL
             frm_cad_pauta = new form_cadastro_pauta();
             frm_cad_pauta.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

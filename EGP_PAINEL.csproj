@@ -46,23 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Partido.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Cadastro_de_partido.cs">
+    <Compile Include="Formularios\form_cadastro_camara.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Cadastro_de_partido.Designer.cs">
-      <DependentUpon>Cadastro_de_partido.cs</DependentUpon>
+    <Compile Include="Formularios\form_cadastro_camara.Designer.cs">
+      <DependentUpon>form_cadastro_camara.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Cadastro_funcoes.cs">
+    <Compile Include="Formularios\form_cadastro_de_partido.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Cadastro_funcoes.Designer.cs">
-      <DependentUpon>Cadastro_funcoes.cs</DependentUpon>
+    <Compile Include="Formularios\form_cadastro_de_partido.Designer.cs">
+      <DependentUpon>form_cadastro_de_partido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\form_cadastro_funcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\form_cadastro_funcoes.Designer.cs">
+      <DependentUpon>form_cadastro_funcoes.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\form_cadastro_participante.cs">
       <SubType>Form</SubType>
@@ -70,19 +77,31 @@
     <Compile Include="Formularios\form_cadastro_participante.Designer.cs">
       <DependentUpon>form_cadastro_participante.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\form_cadastro_pauta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\form_cadastro_pauta.Designer.cs">
+      <DependentUpon>form_cadastro_pauta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Cadastro_de_partido.resx">
-      <DependentUpon>Cadastro_de_partido.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\form_cadastro_camara.resx">
+      <DependentUpon>form_cadastro_camara.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Cadastro_funcoes.resx">
-      <DependentUpon>Cadastro_funcoes.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\form_cadastro_de_partido.resx">
+      <DependentUpon>form_cadastro_de_partido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\form_cadastro_funcoes.resx">
+      <DependentUpon>form_cadastro_funcoes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\form_cadastro_participante.resx">
       <DependentUpon>form_cadastro_participante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\form_cadastro_pauta.resx">
+      <DependentUpon>form_cadastro_pauta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

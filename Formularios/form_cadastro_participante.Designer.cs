@@ -50,6 +50,8 @@
             this.txtRua = new System.Windows.Forms.TextBox();
             this.pictureBox_foto = new System.Windows.Forms.PictureBox();
             this.groupBox_atribuicoes = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.comboPartido = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -61,18 +63,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.btConcluido = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.atribuiçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cadastroDeFunçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cadastroDePartidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox_info_pessoais.SuspendLayout();
             this.groupBox_endereco.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_foto)).BeginInit();
             this.groupBox_atribuicoes.SuspendLayout();
             this.groupBox_movel.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox_info_pessoais
@@ -315,6 +310,26 @@
             this.groupBox_atribuicoes.TabStop = false;
             this.groupBox_atribuicoes.Text = "Atribuições";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(362, 36);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(33, 26);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "...";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(161, 36);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(33, 26);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "...";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -440,57 +455,6 @@
             this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip1.ToolTipTitle = "Excluir foto";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(161, 36);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(33, 26);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "...";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(362, 36);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(33, 26);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "...";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.atribuiçõesToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(735, 24);
-            this.menuStrip1.TabIndex = 13;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // atribuiçõesToolStripMenuItem
-            // 
-            this.atribuiçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroDeFunçõesToolStripMenuItem,
-            this.cadastroDePartidosToolStripMenuItem});
-            this.atribuiçõesToolStripMenuItem.Name = "atribuiçõesToolStripMenuItem";
-            this.atribuiçõesToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
-            this.atribuiçõesToolStripMenuItem.Text = "Atribuições";
-            // 
-            // cadastroDeFunçõesToolStripMenuItem
-            // 
-            this.cadastroDeFunçõesToolStripMenuItem.Name = "cadastroDeFunçõesToolStripMenuItem";
-            this.cadastroDeFunçõesToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.cadastroDeFunçõesToolStripMenuItem.Text = "Cadastro de Funções";
-            // 
-            // cadastroDePartidosToolStripMenuItem
-            // 
-            this.cadastroDePartidosToolStripMenuItem.Name = "cadastroDePartidosToolStripMenuItem";
-            this.cadastroDePartidosToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.cadastroDePartidosToolStripMenuItem.Text = "Cadastro de Partidos";
-            // 
             // form_cadastro_participante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -503,10 +467,8 @@
             this.Controls.Add(this.pictureBox_foto);
             this.Controls.Add(this.groupBox_endereco);
             this.Controls.Add(this.groupBox_info_pessoais);
-            this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.KeyPreview = true;
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "form_cadastro_participante";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Participantes";
@@ -524,10 +486,7 @@
             this.groupBox_atribuicoes.PerformLayout();
             this.groupBox_movel.ResumeLayout(false);
             this.groupBox_movel.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -567,9 +526,5 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem atribuiçõesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cadastroDeFunçõesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cadastroDePartidosToolStripMenuItem;
     }
 }

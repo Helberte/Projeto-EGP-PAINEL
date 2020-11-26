@@ -9,6 +9,7 @@ using System.Net.Configuration;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EGP_PAINEL.Classes;
 
 namespace EGP_PAINEL.Formularios
 {
@@ -16,6 +17,7 @@ namespace EGP_PAINEL.Formularios
     {
         form_cadastro_participante frm_cad_participante;
         bool mouse_na_foto = false;
+
 
         public form_cadastro_participante()
         {
@@ -173,14 +175,16 @@ namespace EGP_PAINEL.Formularios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Cadastro_funcoes cad_funcoes = new Cadastro_funcoes();
+            form_cadastro_funcoes cad_funcoes = new form_cadastro_funcoes();
 
             cad_funcoes.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Cadastro_de_partido cad_partido = new Cadastro_de_partido();
+            form_cadastro_de_partido cad_partido = new form_cadastro_de_partido();
+
+            Partido.Chamou_cad_participante = true;
 
             cad_partido.ShowDialog();
         }

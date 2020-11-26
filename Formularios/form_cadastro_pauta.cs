@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace EGP_PAINEL.Formularios
 {
-    public partial class Cadastro_funcoes : Form
+    public partial class form_cadastro_pauta : Form
     {
-        public Cadastro_funcoes()
+        public form_cadastro_pauta()
         {
             InitializeComponent();
-        }
-
-        private void Cadastro_funcoes_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Escape)
-            {
-                this.Close();
-            }
         }
     }
 }

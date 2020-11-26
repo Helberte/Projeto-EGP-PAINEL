@@ -20,5 +20,7 @@ C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.csproj.GenerateResource.cach
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.csproj.CoreCompileInputs.cache
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.exe
 C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.pdb
-C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.Cadastro_funcoes.resources
-C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.Cadastro_de_partido.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_de_partido.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_funcoes.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_camara.resources
+C:\Helberte\Projeto-EGP-PAINEL\obj\Debug\EGP_PAINEL.Formularios.form_cadastro_pauta.resources

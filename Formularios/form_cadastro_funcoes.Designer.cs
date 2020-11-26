@@ -1,6 +1,6 @@
 ﻿namespace EGP_PAINEL.Formularios
 {
-    partial class Cadastro_funcoes
+    partial class form_cadastro_funcoes
     {
         /// <summary>
         /// Required designer variable.
@@ -37,10 +37,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(12, 38);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(345, 21);
+            this.textBox1.Size = new System.Drawing.Size(345, 22);
             this.textBox1.TabIndex = 1;
             // 
             // label1
@@ -55,7 +55,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(12, 89);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -74,6 +74,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(246, 221);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 31);
@@ -81,10 +82,11 @@
             this.button1.Text = "Salvar";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Cadastro_funcoes
+            // form_cadastro_funcoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(369, 264);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -92,7 +94,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.KeyPreview = true;
-            this.Name = "Cadastro_funcoes";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "form_cadastro_funcoes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Funções";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Cadastro_funcoes_KeyPress);
